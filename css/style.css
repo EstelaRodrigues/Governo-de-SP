@@ -1,0 +1,1775 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    text-align: center;
+    text-decoration: none;
+}
+
+html,body{
+	width: 100%;
+    background-color: #F0F1F1;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    max-width: 1920px;
+    background-color: #F0F1F1;
+}
+
+.noticias{
+    width: 100%;
+    height: 50px;
+    background-color: #000000;
+    margin-top: 20px;
+}
+
+.noticias button{
+    width: 150px;
+    height: 50px;
+    float: left;
+    color: white;
+    margin-left: 10%;
+    border-radius: 10px;
+    background-color: #024591;
+}
+
+.noticias p{
+    float: left;
+    color: white;
+    margin-left: 1%;
+    margin-top: 15px;
+}
+
+.desktop {
+    position: relative;
+    width: 100%;
+    height: 75px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+
+.paginas, .links,img{
+	text-decoration: none;
+	color: black;
+	list-style-type: none;
+    font-size: 15px;
+    vertical-align: middle;
+    padding: 0 15px;
+}
+
+.links:hover{color: #FF0011;}
+
+.select:hover{color: #FF0011;}
+
+.select{color: #FF0011;}
+
+.botao-cidadao{
+    background-color: #fff;
+    border: black 1.5px solid;
+    border-radius: 20px;
+    width: 135px;
+    height: 40px;
+    text-decoration: none;
+	color: black;
+    font-size: 15px;
+    padding: 0 15px;
+	color: black;
+	list-style-type: none;
+    cursor: pointer;
+}
+
+.botao-cidadao a{
+    text-decoration: none;
+	color: black;
+	list-style-type: none;
+    cursor: pointer;
+}
+
+.mobile{
+    position: relative;
+    display: none;
+}
+
+.navbar{
+    position: relative;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    background-color: #fff;
+    border: 1px solid;
+    box-shadow: 0px 1px 5px #000;
+    font-size: 16px;
+}
+
+a{
+    font-weight: bold;
+    color: #000;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: #000;
+}
+
+.logo-mobile{
+    width: 140px;
+    height: auto;
+}
+
+.icone-busca{
+    width: auto;
+    height: auto;
+    margin-left: -25px;
+    cursor: pointer;
+}
+
+.capa{
+    width: 100%;
+    height: 720px;
+    margin-top: 50px;
+}
+
+.sessao-img{
+    width: 50%;
+    float: left;
+}
+
+.sessao-img img{
+    width: 90%;
+    height: 90%;
+    float: right;
+}
+
+.sessao-txt{
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding-right: 2%;
+}
+
+.texto-capa{
+    font-size: 50px;
+    text-align: right;
+    margin: 90px auto 0 auto;
+    display: flex;
+    padding: 0 3%;
+    padding-right: 10%;
+    justify-content: center;
+}
+
+.download{
+    margin: 30px auto;
+}
+
+.download img{
+    width: 25%;
+}
+
+.boneco img{
+    width: 25%;
+    margin: 20px auto;
+}
+
+.vacina{
+    position: relative;
+    width: 100%;
+    height: 500px;
+}
+
+.linha{
+    width: 80%;
+    height: 3px;
+    margin: 20px auto;
+    background-color: #024591;
+}
+
+.vacinometro{
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 20px; 
+    height: 523px;
+    background-color: #024591;
+}
+
+.vacinometro h3{
+    color: white;
+    font-size: 30px;
+    margin: 15px auto;
+    float: left;
+    padding-left: 30%;
+    background-color: #024591;
+}
+
+.vacinometro button{
+    color: #024591;
+    font-size: 15px;
+    width:  200px;
+    height: 40px;
+    margin: 10px 0 0 10px;
+    border-radius: 10px; 
+    float: left;
+    background-color: white;
+    cursor: pointer;
+}
+
+.vacinometro button a{
+    color: #024591;
+    text-decoration: none;
+}
+
+.vacinas{
+    position: relative;
+    width: 99.9%;
+    height: 455px;
+    border-radius: 20px;
+    margin: auto;
+    padding: 15px 0;
+    background-color: #F0F1F1;
+    clear: both;
+}
+
+.populacao{
+    width: 30%;
+    margin: 0 2%;
+    border-radius: 20px; 
+    height: 420px;
+    background-color: #024591;
+    float: left;
+}
+
+.populacao h1{
+    color: white;
+    font-size: 16px;
+    margin: 15px auto;
+    float: none;
+    background-color: #024591;
+}
+
+.fundo-vacina{
+    width: 99%;
+    height: 365px;
+    border-radius: 20px;
+    padding: 10px;
+    margin: auto;
+    background-color: white;
+    clear: both;
+}
+
+.botao-populacao{
+    float: left;
+    width: 40%;
+    height: 30px;
+    margin: 0px 5%;
+}
+
+.botao-populacao h2{
+    font-size: 29px;
+    line-height: 40px;
+}
+
+.botao-populacao p{
+    margin-top: 10px;
+    color: #024591;
+}
+
+.botao-populacao2{
+    float: left;
+    width: 40%;
+    height: 30px;
+    margin: 0px 5%;
+    margin-top: 100px;
+}
+
+.botao-populacao2 h2{
+    font-size: 29px;
+    line-height: 40px;
+}
+
+.botao-populacao p{
+    margin-top: 10px;
+    color: #024591;
+}
+
+.quantidade{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    background-color: #024591;
+}
+
+.doses-aplicadas{
+    width: 30%;
+    margin: 0 1%;
+    border-radius: 20px; 
+    height: 420px;
+    background-color: #024591;
+    float: left;
+    text-align: center;
+}
+
+.doses-aplicadas h1{
+    color: white;
+    font-size: 16px;
+    margin: 15px auto;
+    padding: 0 2%;
+    background-color: #024591;
+}
+
+.botao-branco{
+    float: left;
+    width: 33.3%;
+    height: 30px;
+    padding: 0px 1%;
+    margin-top: 10px;
+}
+
+.dose-adicional{
+    float: none;
+    clear: both;
+    width: 33%;
+    height: 30px;
+    margin: 0px 33%;
+    margin-top: 80px;
+}
+
+.dose-adicional p{
+    color: #024591;
+    font-style: italic;
+}
+
+.botao-branco h2{
+    font-size: 17px;
+    vertical-align: middle;
+}
+
+.dose-adicional h2{font-size: 17px;}
+
+.botao-branco p{
+    color: #024591;
+    font-style: italic;
+}
+
+.numeros{
+    width: 50%;
+    height: 40px;
+    border-radius: 10px;
+    line-height: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    background-color: #024591;
+}
+
+.numeros2{
+    width: 100%;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 10px;
+    color: #024591;
+    clear: both;
+    background-color: #F0F1F1;
+    border: #024591 1px solid;
+}
+
+.doses-criancas{
+    width: 30%;
+    margin: 0 1%;
+    border-radius: 20px; 
+    height: 420px;
+    background-color: #024591;
+    float: left;
+    text-align: center;
+}
+
+.doses-criancas h1{
+    color: white;
+    font-size: 16px;
+    margin: 15px auto;
+    padding: 0 2%;
+    background-color: #024591;
+}
+
+.lado-es{
+    float: left;
+    width: 45%;
+    height: 30px;
+    padding: 0px 2%;
+    margin-top: 20px;
+}
+
+.lado-es h2{
+    font-size: 35px;
+    color: #024591;
+    padding-left: 0%;
+    margin: auto;
+}
+
+.lado-es p{
+    font-size: 15px;
+    margin-top: 5px;
+    color: #024591;
+    padding-left: 0%;
+    font-style: italic;
+}
+
+.lado-es img{
+    font-size: 15px;
+    margin-top: 50px;
+    padding-right: 0%;
+    color: #024591;
+    object-fit:contain;
+}
+
+.linha-vertical{
+    width: 0.3%;
+    height: 70%;
+    float: left;
+    margin-left: 5%;
+    margin-top: 10px;
+    background-color: #024591;
+}
+
+.lado-di{
+    float: left;
+    width: 45%;
+    height: 30px;
+    padding: 0px 2%;
+    margin-top: 20px;
+}
+
+.lado-di h2{
+    font-size: 35px;
+    color: #024591;
+    padding-left: 17%;
+}
+
+.lado-di p{
+    font-size: 15px;
+    margin-top: 5px;
+    padding-left: 17%;
+    font-style: italic;
+    color: #024591;
+}
+
+.lado-di img{
+    font-size: 15px;
+    margin-top: 10px;
+    padding-left: 55%;
+    color: #024591;
+}
+
+.saibamais{
+    width: 40%;
+    height: auto;
+    padding: 10px 5%;
+}
+
+.gif{
+    width: 40%;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px 5%;
+}
+
+.ultimas-noticias{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    margin-top: 350px;
+}
+
+.ultimas-noticias h1{
+    color: #024591;
+    font-size: 35px;
+    padding-top: 20px;
+    padding-right: 80%;
+}
+
+.sublinhado{
+    width: 8%;
+    height: 5px;
+    margin-left: 5.5%;
+    background-color: #000;
+}
+
+.noticia{
+    position: relative;
+    width: 100%;
+}
+
+.fundo-noticia {
+    width: 30%;
+    margin: 20px auto;
+    float: left;
+    margin-left: 3%;
+}
+
+.fundo-noticia img{
+    width: 80%;
+    height: auto;
+    margin: 20px auto;
+    float: none;
+}
+
+.fundo-secundario{
+    width: 75%;
+    height: 200px; 
+    margin: 20px auto;
+    margin-top: -160px;
+    padding-bottom: 20px;
+    border-radius: 20px;
+    background-color: #F0F1F1;
+    box-shadow: 0px 20px 20px gray;
+}
+
+.fundo-noticia p{
+    height: auto;
+    font-size: 15px;
+    text-align: left;
+    margin:auto;
+    padding: 150px 0 0 20px;
+}
+
+.botao{
+    position: relative;
+    width: 180px;
+    height: 60px;
+    margin: 50px 0;
+    font-size: 18px;
+    font-style: bold;
+    border-radius: 10px;
+    background-color: #024591;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.botao a{
+    color: white;
+    text-decoration: none;
+}
+
+.informacoes{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    float: left;
+}
+
+.sociais{
+    position: relative;
+    width: 50%;
+    float: left;
+    padding-left: 5%;
+}
+
+.sociais h1{
+    color: #024591;
+    font-size: 35px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.sublinhado2{
+    width: 25%;
+    height: 5px;
+    margin: auto;
+    background-color: #000;
+}
+
+.icons{
+    margin: auto;
+    padding-top: 20px;
+}
+
+.icons img{
+    width: 55px;
+    height: 60px;
+    margin: auto;
+    padding: 10px 5px;
+}
+
+.telegram{
+    width: 400px;
+    height: 150px;
+    margin-top: 20px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.infografico{
+    position: relative;
+    width: 50%;
+    float: left;
+    padding-right: 5%;
+}
+
+.infografico h1{
+    color: #024591;
+    font-size: 35px;
+    padding-top: 50px;
+    margin: auto;
+}
+
+.sublinhado3{
+    width: 25%;
+    height: 5px;
+    margin: auto;
+    background-color: #000;
+}
+
+.info{
+    float: left;
+    margin: auto;
+    padding: 0 15%;
+}
+
+.info img{
+    width: auto;
+    height: auto;
+    float: left;
+    padding: 0;
+}
+
+.fundo-info{
+    width: 100%;
+    height: 228px;
+    float: left;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.fundo-info h2{
+    font-size: 20px;
+    padding: 10px 0 0 250px;
+    text-align: left;
+}
+
+.fundo-info p{
+    font-size: 15px;
+    text-align: left;
+    padding: 10px 0 0 250px;
+}
+
+.orgaos{
+    position: relative;
+    width: 100%;
+    height: 330px;
+    background-color: white;
+    margin-top: 500px;
+}
+
+.orgaos h1{
+    color: #024591;
+    font-size: 35px;
+    padding-top: 50px;
+}
+
+.sublinhado5{
+    width: 13%;
+    height: 5px;
+    margin: auto;
+    background-color: #000;
+}
+
+.botoes button{
+    position: relative;
+    width: 175px;
+    height: 50px;
+    font-size: 18px;
+    color: #024591;
+    font-style: bold;
+    border: #000 1px solid;
+    border-radius: 10px;
+    background-color: #F0F1F1;
+    margin: 20px 10px;
+    cursor: pointer;
+}
+
+.botoes button:hover{
+    color: white;
+    background-color: #024591;
+}
+
+.rodape{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #000000;
+}
+
+.link-rodape{
+    height: auto;
+    padding-top: 50px;
+}
+
+.link-rodape a{
+    font-size: 20px;
+    padding: 0px 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.links-rodape{
+    color: white;
+    font-size: 20px;
+    padding: 0px 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.links-rodape:hover{
+    font-size: 20px;
+    padding: 0px 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FF0011;
+}
+
+.icones-branco{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin: auto;
+    margin-top: 180px;
+    padding: 0  10px;
+    padding-left: 5%;
+}
+
+.icones-branco img{
+    float: left;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.icones-branco p{
+    float: left;
+    padding: 0 10px;
+    font-size: 20px;
+    color: white;
+    line-height: 70px;
+}
+
+.contatos{
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-top: 165px;
+    padding-left: 1%;
+    display: block;
+    padding-left: 5%;
+}
+
+.contatos h1{
+    float: left;
+    padding: 0 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    line-height: 60px;
+}
+
+.contatos img{
+    float: left;
+    padding: 0 10px;
+}
+
+@media screen and (max-width:1450px){
+    .capa{
+        width: 100%;
+        height: 650px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (max-width:1250px){    
+    .download img{
+        width: 35%;
+        margin: auto;
+        margin-top: 20px; 
+    }
+}
+
+@media screen and (max-width:768px){
+    .noticias{display: none;}
+
+    .hamburger {
+        display: block;
+        padding:  0 1%;
+    }    
+    
+    .mobile{   
+        display: block;  
+        z-index: 99;
+    }
+
+    .desktop{display: none;}
+    
+    .navbar{
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(10px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-10px) rotate(-45deg);
+    }
+
+    .nav-menu.active{right: 0;}
+
+    .nav-menu{
+        position: fixed;
+        right: -100%;
+        top: 100px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #fff;
+        width: 40%;
+        text-align: center;
+        transition: 0.3s;
+        list-style-type: none;
+    }
+
+    .nav-link{
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .nav-link:hover{font-size: 24px;}
+    
+    .nav-item{
+        width: 100%;
+        margin: 5px 0;
+        padding: 10px 0;
+        border-bottom: #000 1px solid;        
+    }
+
+    .nav-branding {border: solid;}    
+
+    .capa{height: auto;}
+    
+    .sessao-img{
+        width: 100%;
+        display: block;
+        margin: 30px auto;
+    }	
+
+    .sessao-img img{float: none;}
+
+    .sessao-txt{
+        width: 100%;
+        float: none;
+        margin-top: 170px;
+        padding: 0 2%;
+    }	
+
+    .texto-capa{
+        text-align: center;
+        padding: 0 10%;
+        margin: auto;
+        font-size: 40px;
+    }
+    
+    .sessao-txt .download{margin: auto;}
+    
+    .download img{
+        width: 35%;
+        margin: auto;
+        margin-top: 20px; 
+    }
+        
+    .boneco img{
+        width: 43%;
+        padding: 0 2%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .vacinometro{
+        width: 95%;
+        margin: 20px auto;
+        border-radius: 20px; 
+        height: auto;
+        background-color: #024591;
+    }
+    
+    .vacinometro h3{
+        border-radius: 50px;
+        margin: 50px auto;
+        float: none;
+        padding: 20px 0 0 0;
+    }
+    
+    .vacinometro button{
+        width:  60%;
+        margin: 20px auto;
+        float: none;
+        display: block;
+    }
+    
+    .vacinas{
+        width: 99%;
+        height: auto;
+    }
+    
+    .populacao{
+        width: 95%;
+        margin: 20px auto;
+        height: auto;
+        float: none;
+    }
+    
+    .populacao h1{
+        margin: 15px auto;
+        padding: 0;
+        padding-top: 20px;
+        border-radius: 20px;
+        float: none;
+    }
+
+    .botao-populacao, .botao-populacao2{
+        float: none;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 90px;
+    }
+
+    .quantidade h2{
+        font-size: 25px;
+        line-height: 40px;
+    }
+
+    .quantidade p{
+        width: 100%;
+        font-size: 25px;
+        line-height: 40px;
+    }
+    
+    .fundo-vacina{
+        width: 99%;
+        height: auto;
+        border-radius: 20px;
+        padding: 10px;
+        margin: auto;
+        background-color: white;
+        clear: both;
+    }
+
+    .doses-aplicadas{
+        width: 95%;
+        margin: 20px auto;
+        height: auto;
+        float: none;
+    }
+
+    .doses-aplicadas h1{
+        margin: 15px auto;
+        padding: 0;
+        padding-top: 20px;
+        border-radius: 20px;
+        float: none;
+    }
+
+    .dose-adicional{width: 50%;}
+
+    .botao-centro,.dose-adicional{margin: 20px auto;}
+
+    .botao-branco{
+        width: 50%;
+        float: none;
+        margin: auto;
+        margin-bottom: 40px;
+    }
+
+    .numeros,.numeros2 h2{
+        font-size: 15px;
+        line-height: 40px;
+    }
+
+    .doses-criancas{
+        width: 95%;
+        margin: 20px auto;
+        height: auto;
+        float: none;
+    }
+    
+    .doses-criancas h1{
+        margin: 15px auto;
+        padding: 0 1%;
+        padding-top: 20px;
+        border-radius: 20px;
+        float: none;
+    }
+        
+    .lado-es{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .lado-es h2{padding-left: 0%;}
+    
+    .lado-es p{
+        padding-left: 0;
+        margin: 10px auto;
+        font-style: italic;
+    }
+    
+    .lado-es img{
+        padding: 0;
+        margin: 20px auto;
+    }
+    
+    .linha-vertical{
+        width: 90%;
+        height: 2px;
+        float: none;
+        margin: 10px auto;
+    }
+    
+    .lado-di{
+        float: none;
+        width: 100%;
+        height: auto;
+        margin: auto;
+    }
+    
+    .lado-di h2{padding-left: 0%;}
+    
+    .lado-di p{
+        padding-left: 0;
+        margin: 10px auto;
+        font-style: italic;
+    }
+    
+    .lado-di img{
+        padding: 0;
+        margin: 20px auto;
+    }
+    
+    .saibamais{
+        width: 50%;
+        padding: 10px 0%;
+        margin: auto;
+    }
+    
+    .gif{
+        width: 50%;
+        height: auto;
+        border-radius: 20px;
+        padding: 10px 0%;
+        margin: auto;
+    }
+
+    .ultimas-noticias{
+        width: 100%;
+        height: auto;
+        margin-top: 1800px;
+    }
+    
+    .ultimas-noticias h1{
+        font-size: 35px;
+        padding-top: 20px;
+        padding-right: 0%;
+    }
+    
+    .sublinhado{
+        width: 10%;
+        height: 5px;
+        margin: auto;
+    }
+    
+    .noticia{width: 100%;}
+    
+    .fundo-noticia {
+        width: 90%;
+        margin: 20px auto;
+        float: none;
+    }
+    
+    .fundo-noticia img{
+        width: 85%;
+        height: auto;
+        margin: 20px auto;
+        float: none;
+    }
+    
+    .fundo-secundario{
+        width: 80%;
+        height: auto; 
+        margin: 20px auto;
+        margin-top: -80px;
+        padding-bottom: 20px;
+    }
+    
+    .fundo-noticia p{padding: 85px 0 0 10px;}
+
+    .informacoes{
+        width: 100%;
+        height: auto;
+        float: none;
+    }
+    
+    .sociais{
+        width: 100%;
+        float: none;
+    }
+    
+    .sociais h1{
+        padding-top: 50px;
+        padding-right: 0%;
+    }
+    
+    .sublinhado2{margin: auto;}
+    
+    .icons{
+        height: auto;
+        margin-right: 0;
+        padding-top: 20px;
+    }
+    
+    .icons img{
+        width: 55px;
+        height: 63px;
+        margin: auto;
+        padding: 10px 5px;
+    }
+    
+    .telegram{
+        width: 50%;
+        height: auto;
+        margin-top: 20px;
+        border-radius: 20px;
+        margin-right: 0%;
+    }
+    
+    .infografico{
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: auto;
+        padding-bottom: 90px;
+    }
+    
+    .infografico h1{
+        font-size: 25px;
+        padding-top: 50px;
+        padding-left: 0%;
+    }
+    
+    .sublinhado3{
+        width: 25%;
+        height: 5px;
+        margin: auto;
+    }
+    
+    .info img{
+        width: 90%;
+        height: auto;
+        float: none;
+        padding: 0;
+    }
+
+    .fundo-info{
+        width: 80%;
+        height: auto;
+        float: none;
+        margin-top: 50px;
+        padding: 10px 2%;
+    }
+
+    .fundo-info h2{
+        font-size: 20px;
+        padding: 10px 0 0 0px;
+        text-align: center;
+    }
+    
+    .fundo-info p{
+        font-size: 15px;
+        text-align: center;
+        padding: 10px 0 0 0px;
+    }
+    
+    .orgaos{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+    
+    .rodape{
+        position: absolute;
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    
+    .link-rodape{display: none;}   
+   
+    .icones-branco{
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: auto;
+        margin-top: 50px;
+        padding: 0 5%;
+    }
+    
+    .icones-branco img{
+        float: left;
+        padding: 0 10px;
+        margin-top: 20px;
+    }
+    
+    .icones-branco p{
+        float: left;
+        padding: 0 5px;
+        font-size: 20px;
+        line-height: 70px;
+    }
+    
+    .contatos{
+        width: 100%;
+        float: none;
+        margin-top: 180px;
+        padding: 0 30px;
+    }
+
+    .palavras{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .contatos h1{
+        float: left;
+        padding: 0 3%;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 300;
+        color: white;
+        line-height: 60px;
+    }
+  
+    .contatos img{
+        float: none;
+        margin: 20px auto;
+        padding: 0 0%;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    @media screen and (max-width: 1180px){
+        .noticias{display: none;}
+    
+        .hamburger {
+            display: block;
+            padding:  0 1%;
+        }    
+        
+        .mobile{   
+            display: block;  
+            z-index: 99;
+        }
+    
+        .desktop{display: none;}
+        
+        .navbar{
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(2){opacity: 0;}
+    
+        .hamburger.active .bar:nth-child(1){transform: translateY(10px) rotate(45deg);}
+    
+        .hamburger.active .bar:nth-child(3){transform: translateY(-10px) rotate(-45deg);}
+    
+        .nav-menu.active{right: 0;}
+    
+        .nav-menu{
+            position: fixed;
+            right: -100%;
+            top: 100px;
+            gap: 0;
+            flex-direction: column;
+            background-color: #fff;
+            width: 40%;
+            text-align: center;
+            transition: 0.3s;
+            list-style-type: none;
+        }
+    
+        .nav-link{
+            font-size: 16px;
+            text-decoration: none;
+        }
+    
+        .nav-link:hover{font-size: 24px;}
+        
+        .nav-item{
+            width: 100%;
+            margin: 5px 0;
+            padding: 10px 0;
+            border-bottom: #000 1px solid;        
+        }
+    
+        .nav-branding{border: solid;}    
+
+        .capa{height: 525px;}
+        
+        .sessao-img{
+            width: 100%;
+            margin-top: 100px;
+        }
+
+        .sessao-img img{  
+            float: none;
+            margin: auto;
+        }
+        
+        .sessao-txt{
+            width: 100%;
+            margin-top: 100px;
+        }	
+
+        .download{
+            margin: 30px 0%;
+            margin-right: 0%;
+        }
+        
+        .download img{
+            width: 25%;
+        }
+    
+        .texto-capa{ 
+            width: 100%;
+            padding: 0 10%;
+            margin: auto;
+            text-align: center;
+            font-size: 40px;
+        }         
+
+        .linha{
+            width: 85%;
+            margin-top: 200px;
+        }
+    
+        .vacinometro{
+            width: 85%;
+            margin: 20px auto;
+            border-radius: 20px; 
+            height: auto;
+        }
+        
+        .vacinometro h3{
+            border-radius: 50px;
+            margin: auto;
+            float: none;
+            padding: 20px 0 0 0;
+            background-color: #024591;
+        }
+        
+        .vacinometro button{
+            width:  50%;
+            height: 40px;
+            margin: 20px auto;
+            border-radius: 10px; 
+            float: none;
+            display: block;
+        }
+        
+        .vacinas{
+            width: 99%;
+            height: auto;
+            border-radius: 20px;
+            margin: auto;
+            padding: 15px 0;
+        }
+        
+
+
+        .populacao{
+            width: 95%; 
+            margin: 20px auto; 
+            height: auto; 
+            float: none;
+        }
+        
+        .populacao h1{
+            margin: 15px auto; 
+            padding: 0; 
+            padding-top: 20px; 
+            border-radius: 20px; 
+            float: none;
+        }  
+    
+        .doses-aplicadas{
+            width: 95%; 
+            margin: 20px auto; 
+            height: auto; 
+            float: none;
+        }
+    
+        .doses-aplicadas h1{
+            margin: 15px auto; 
+            padding: 0; 
+            padding-top: 20px; 
+            border-radius: 20px; 
+            float: none;
+        }
+    
+        .botao-centro, .botao-branco{
+            margin-top: 20px;
+            margin-bottom: 40px;
+        }
+
+        .botao-populacao{margin: 40px 5%;}
+        
+        .botao-populacao2{
+            margin: 40px 5%;
+            margin-top: 100px;
+        }
+
+        .doses-criancas{
+            width: 95%; 
+            margin: 20px auto; 
+            height: auto; 
+            float: none;
+        }
+        
+        .doses-criancas h1{
+            margin: 15px auto; 
+            padding: 0; 
+            padding-top: 20px; 
+            border-radius: 20px; 
+            float: none;
+        }            
+      
+        .saibamais{
+            clear: both;
+            width: 40%;
+            padding: 10px 2%;
+            margin: auto;
+        }
+        
+        .gif{
+            width: 40%;
+            border-radius: 30px;
+            padding: 10px 2%;
+            margin: auto;
+        }
+
+        .linha{
+            margin-top: 20px;
+            clear: both;
+        }
+    
+        .ultimas-noticias{
+            width: 100%;
+            height: auto;
+            margin-top: 2430px;
+        }
+        
+        .ultimas-noticias h1{
+            font-size: 35px;
+            padding-top: 20px;
+            padding-right: 0%;
+        }
+        
+        .sublinhado{
+            width: 8%;
+            height: 5px;
+            margin: auto;
+        }    
+        
+        .fundo-noticia {
+            width: 33%;
+            margin: 20px auto;
+            float: left;
+        }
+        
+        .fundo-noticia img{
+            width: 90%;
+            height: auto;
+            margin: 20px auto;
+            float: none;
+        }
+        
+        .fundo-secundario{
+            width: 85%;
+            height: auto; 
+            margin: 20px auto;
+            margin-top: -80px;
+            padding-bottom: 20px;
+        }
+        
+        .fundo-noticia p{padding: 85px 0 0 10px;}
+            
+        .informacoes{
+            width: 100%;
+            height: 400px;
+            float: none;
+        }
+        
+        .sociais{
+            position: relative;
+            width: 100%;
+            float: none;
+        }
+        
+        .sociais h1{
+            padding-top: 50px;
+            padding-right: 0%;
+        }
+        
+        .sublinhado2{margin: auto;}
+        
+        .icons{
+            margin-right: 0;
+            padding-top: 20px;
+        }
+        
+        .icons img{
+            width: 55px;
+            height: 63px;
+            margin: auto;
+        }
+        
+        .telegram{
+            width: 45%;
+            height: auto;
+            margin-top: 20px;
+            margin-right: 0%;
+        }
+        
+        .infografico{
+            width: 100%;
+            float: none;
+            margin: auto;
+        }
+        
+        .infografico h1{
+            padding-top: 50px;
+            padding-left: 0%;
+        }
+        
+        .sublinhado3{
+            width: 25%;
+            height: 5px;
+            margin: auto;
+        }
+        
+        .info{
+            float: none;
+            padding-right: 20%;
+        }
+        
+        .info img{
+            width: auto;
+            height: auto;
+            float: left;
+            padding: 0;
+        }
+        
+        .fundo-info{
+            width: 100%;
+            height: auto;
+            float: none;
+            margin-top: 50px;
+            padding: 0 2%;
+        }
+        
+        .orgaos{
+            width: 100%;
+            height: auto;
+        }
+
+        .rodape{
+            position: absolute;
+            width: 100%;
+            height: auto;
+        }
+        
+        .link-rodape{
+            display: none;
+        }   
+       
+        .icones-branco{
+            width: 100%;
+            float: none;
+            margin: auto;
+            margin-top: 50px;
+        }
+        
+        .icones-branco img{
+            float: left;
+            padding: 0 10px;
+            margin-top: 20px;
+        }
+        
+        .icones-branco p{
+            float: left;
+            padding: 0 5px;
+            font-size: 20px;
+            line-height: 70px;
+        }
+        
+        .contatos{
+            width: 100%;
+            float: none;
+            margin-top: 150px;
+            padding: 0 30px;
+        }
+    
+        .palavras{
+            padding-left: 10%;
+        }
+        
+        .contatos h1{
+            float: left;
+            padding: 0 2%;
+            margin: 0 auto;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 60px;
+        }
+    
+        .logo-branca{
+            width: 100%;
+        }
+        
+        .contatos img{
+            float: none;
+            margin: 20px auto;
+            padding: 0 0%;
+            clear: both;
+        }
+    }
+}
+
+@media screen and (max-width: 480px){
+    .sessao-img img{float: none;}
+
+    .texto-capa{font-size: 30px;}
+
+    .download img{
+        width: 45%;
+        padding: 0 2%;
+        margin: auto;
+        margin-top: 30px; 
+    }
+
+    .botao-populacao, .botao-populacao2{
+        float: none;
+        margin: auto;
+        margin-top: 0px;
+        margin-bottom: 110px;
+    }
+    
+    .boneco img{
+        width: 55%;
+        padding: 0 2%;
+        margin: auto;
+        margin-top: 30px;
+    }
+
+    .saibamais, .gif, .telegram{width:60%;}
+
+    .ultimas-noticias{margin-top: 1850px;}
+
+    .fundo-noticia p{
+        height: auto;
+        font-size: 12px;
+        text-align: left;
+        margin:auto;
+        padding: 85px 0 0 10px;
+    }
+
+    .info img{
+        width: 90%;
+        height: auto;
+        float: none;
+        padding: 0;
+    }
+
+    .fundo-info{
+        width: 100%;
+        height: auto;
+        float: none;
+        margin-top: 50px;
+        border-radius: 10px;
+        padding: 20px 2%;
+        background-color: white;
+    }
+
+    .fundo-info h2{
+        font-size: 20px;
+        padding: 10px 0 0 0px;
+        text-align: center;
+    }
+    
+    .fundo-info p{
+        font-size: 15px;
+        text-align: center;
+        padding: 10px 0 0 0px;
+    }
+
+    .orgaos{display: block;}   
+    
+    .contatos h1{font-size: 17px;}
+}
+
+@media screen and (min-width: 920px) {
+    @media screen and (max-width: 1047px){
+        .ultimas-noticias{
+            width: 100%;
+            height: auto;
+            margin-top: 2250px;
+        }
+    }
+}
+
+@media screen and (min-width: 770px) {
+    @media screen and (max-width: 919px){
+        .ultimas-noticias{
+            width: 100%;
+            height: auto;
+            margin-top: 2150px;
+        }
+    }
+}
