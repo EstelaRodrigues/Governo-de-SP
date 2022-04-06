@@ -1,0 +1,1147 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Lato';
+    text-align: center;
+}
+
+html,body{
+	width: 100%;
+    background-color: #F0F1F1;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: auto;
+    max-width: 1920px;
+    background-color: #F0F1F1;
+}
+
+.desktop {
+    position: relative;
+    width: 100%;
+    height: 75px;
+    font-size: 12px;
+    margin-top: 20px;
+    margin-left: -30px;
+}
+
+.paginas, .links,img{
+	text-decoration: none;
+	color: black;
+	list-style-type: none;
+    font-size: 15px;
+    vertical-align: middle;
+    padding: 0 15px;
+}
+
+.links:hover{color: #FF0011;}
+
+.select:hover{color: #FF0011;}
+
+.select{color: #FF0011;}
+
+.botao-cidadao{
+    background-color: #fff;
+    border: black 1.5px solid;
+    border-radius: 20px;
+    width: 135px;
+    height: 40px;
+    text-decoration: none;
+	color: black;
+    font-size: 15px;
+    padding: 0 15px;
+	color: black;
+	list-style-type: none;
+    cursor: pointer;
+}
+
+.botao-cidadao a{
+    text-decoration: none;
+	color: black;
+	list-style-type: none;
+    cursor: pointer;
+}
+
+.mobile{
+    position: relative;
+    display: none;
+}
+
+.navbar{
+    position: relative;
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 24px;
+    background-color: #fff;
+    border: 1px solid;
+    box-shadow: 0px 1px 5px #000;
+    font-size: 16px;
+}
+
+.hamburger{
+    display: none;
+    cursor: pointer;
+}
+
+.bar{
+    display: block;
+    width: 30px;
+    height: 5px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    background-color: #000;
+}
+
+a{
+    font-weight: bold;
+    color: #000;
+}
+
+.logo-mobile{
+    width: 140px;
+    height: auto;
+}
+
+.icone-busca{
+    width: auto;
+    height: auto;
+    margin-left: -25px;
+    cursor: pointer;
+}
+    
+#section_1 {
+    width: 100%;
+  text-align: center;
+  margin: auto;
+  display: block;
+}
+
+#contato_imprensa{
+    font-style: normal;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 150px;
+    font-family: 'Lato';
+    color: #024591;
+    margin: auto;
+    display: block;
+}
+
+#telefones  a{
+    font-family: 'Lato';
+    float: left;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 48px;
+    margin-left: 8px;
+}
+#telefones p span {
+  color: #024591;
+
+}
+#telefones  img{
+    float: left;
+    margin-left: 39px;
+ }
+
+ #telefones  p{
+     margin-top:86px;
+     margin-left: 86px;
+     font-family: 'Lato';
+     clear: both;
+     font-style: normal;
+     text-align: left;
+     font-weight: 400;
+     font-size: 24px;
+     line-height: 36px;
+     color: #000;
+ }
+
+article {
+    margin-top: 67px;
+    width: 90%;
+    height: 404px;
+    border:1px solid #000;
+    margin-left:0%;
+    border-radius: 20px;
+    margin: auto;
+    background-color: #fff;
+}
+
+#sala_de_imprensa img {
+    float: left;
+    margin-top: 4px;
+    margin-left: 20px;
+   
+}
+
+#sala_de_imprensa h2{
+    float: left;
+    width: 71%;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+}
+
+#sala_de_imprensa button{
+    font-family: 'Reem Kufi';
+    display: flex;
+    padding-left: 10px;
+    clear: both;
+    font-weight: 400;
+    margin-left: 20px;
+    font-size: 24px;
+    background-color: #fff;
+    text-align: left;
+}
+
+#sala_de_imprensa button a{
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    padding-left: 10px;
+    clear: both;
+    font-weight: 400;
+    font-size: 24px;
+    color: #024591;
+    font-weight: bold;
+    text-align: left;
+    margin: 10px 0 0 15px;
+}
+
+#sala_de_imprensa{
+    width: 37%;
+    height:340px;
+    border-right: 1px solid #000;
+    float: left;
+    margin-top: 34px;
+    
+}
+#telefones {
+    width: 37%;
+    margin-top: 34px;
+    width: 688px;
+    height:340px;
+    float: left;
+}
+
+#section_2 {
+    font-family: 'Lato';
+    text-align: left;
+    margin-top: 101px;
+    display: block;
+    flex-direction:column;
+}
+
+#contato {
+    font-style: normal;
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 50.4px;
+    color: #024591;
+    text-shadow: 1px 1px black;
+    padding: 0 4%;
+}
+
+#borda{
+    margin-top: 24px;
+    background-color: #024591;
+    height: 9px;
+    width: 187px;
+    border-radius: 5px;
+    text-align: left;
+    margin: 0 4%;
+}
+#section_2 a {
+    text-align: left;
+    margin-top: 40px
+}
+#section_2 p strong {
+    color: red;
+    text-align: left;
+}
+#section_2 p {
+    font-family: 'Lato';
+    margin: 20px auto;
+    font-size: 25px;
+    text-align: left;
+    padding: 0 4%;
+
+}
+#section_2 input {
+    width: 122%;
+    height:55px;
+    text-align: left;
+    margin: 0 1%;
+    border: 1px  solid #000;
+}
+
+#section_2 ul {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    width: 860px;
+}
+
+#section_2 ul a{
+    font-size: 24px;
+    margin-bottom: 50px;
+    text-align: left;
+    padding: 0 5%;
+}
+
+#section_2 ul li {
+   margin-top: 19px;
+   list-style: none;
+   font-size: 25px;
+   width: 100%;
+   text-align: left;
+   padding: 0 9%;
+}
+
+#entre_contato {
+    padding: 0;
+    margin: auto;
+    font-size: 25px;
+}
+ul #area{
+    width: 115%;
+    display: grid;  /* para deixar caixas encaixadas*/
+    grid-template-columns: 1fr 1fr; 
+    text-align: left;
+    margin: 0 4.2%;
+}
+
+#area li input {
+    width: 90%;
+}
+
+#mensagem input {
+    width: 122%;
+    border-radius: 10px;
+    height: 405px;
+    margin: 0 1%;
+}
+
+#enviar {
+    width: 142px;
+    height: 58px;
+    color: #fff;
+    background-color: #024591;
+    border-radius: 10px;
+    text-align: left;
+    font-size: 25px;
+    margin-top: 44px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 44px 10%;
+}
+
+a#a_assesoria {
+    margin-top:83px;
+    margin: 20px 5%;
+    margin-bottom: 50px;
+}
+
+.rodape{
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-color: #000000;
+}
+
+.link-rodape{
+    height: auto;
+    padding-top: 50px;
+}
+
+.link-rodape a{
+    font-size: 20px;
+    padding: 0px 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.links-rodape{
+    color: white;
+    font-size: 20px;
+    padding: 0px 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.links-rodape:hover{
+    font-size: 20px;
+    padding: 0px 25px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #FF0011;
+}
+
+.icones-branco{
+    width: 50%;
+    height: auto;
+    float: left;
+    margin: auto;
+    margin-top: 180px;
+    padding: 0  10px;
+    padding-left: 5%;
+}
+
+.icones-branco img{
+    float: left;
+    padding: 0 10px;
+    margin-top: 20px;
+}
+
+.icones-branco p{
+    float: left;
+    padding: 0 10px;
+    font-size: 20px;
+    color: white;
+    line-height: 70px;
+}
+
+.contatos{
+    width: 50%;
+    height: auto;
+    float: right;
+    margin-top: 165px;
+    padding-left: 1%;
+    display: block;
+    padding-left: 5%;
+}
+
+.contatos h1{
+    float: left;
+    padding: 0 10px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    line-height: 60px;
+}
+
+.contatos img{
+    float: left;
+    padding: 0 10px;
+}
+
+
+/*TABLET */
+@media only screen and (max-width: 1240px) and (min-width: 501px) {
+    body {
+        width: 100%;
+        overflow-x:hidden;
+        margin: auto;
+    }
+
+    main {    
+        width: 100%;
+        margin: auto;
+    }   
+
+    #section_1{
+        width: 90%;
+        margin-top: 120px;
+    }
+
+    #sala_de_imprensa h2{
+        float: left;
+        width: 50%;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 26px;
+    }
+
+    #sala_de_imprensa button {
+        margin-left: 5%;
+    }
+
+    article{
+        width:100%       
+    }
+        
+    #sala_de_imprensa{
+        width: 38%;
+    }
+    #telefones {
+        width: 58%;
+    }
+
+    #sala_de_imprensa a {  
+        width: 65%;    
+    }
+
+    #borda{
+        margin: auto;
+    }
+
+    #entre_contato {
+        height: 20px;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    #section_2 {
+        margin: 30px auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    #contato {
+        padding: 0px 0%;
+    }
+
+    ul #area {
+        width: 100%;
+        display: flex;
+        margin: 0;
+    }
+    #section_2 input {
+        width: 90%;
+        
+    }
+
+    #section_2 input {
+        width: 100%;
+    }
+
+    #section_2 p {
+        margin-top: 0px;
+        font-size: 20px;
+        width: 100%;
+        text-align: center;
+    }
+    
+    #area li input {  
+            width: 100%;
+    }
+
+    #section_2 ul a{
+        width: 100%;
+        font-size: 15px;
+    }
+
+    #section_2 ul {
+        margin-top: 25px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    #enviar {
+        text-align: center;
+        margin: auto;
+        margin-top:31px;
+    }
+
+    #sala_de_imprensa img {
+        display: flex;
+        margin-top: -11px;
+        margin-left: 3px;
+        display: flex;
+    }
+
+    #sala_de_imprensa a {
+        font-size: 25px;
+        width: 100%;
+        margin-top: -14px;
+    }
+}
+
+@media only screen and (max-width: 775px) and (min-width: 501px) {
+
+    #sala_de_imprensa img {
+        display: none;
+    }
+
+    #sala_de_imprensa h2 {
+        padding-left: 20px;
+   }
+
+
+    #sala_de_imprensa a {
+      
+    
+        
+        font-size: 26px;
+        width: 100%;
+    }
+    #sala_de_imprensa button {
+
+        margin-left: 0%;
+    }
+
+    #telefones img {
+
+        display:none;
+    }
+    #telefones a {
+        width: 100%;
+    }
+    
+#telefones p {
+    margin-left: 20px;
+    text-align: left;
+}
+
+#section_2 {
+    font-family: 'Lato';
+    text-align: center;
+    margin-top: 101px;
+    display: flex;
+    flex-direction:column;
+}
+
+#section_2 a {
+    margin-top: 20px;   
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#contato {
+    padding: 0 0%;
+    margin: auto;
+}
+
+#borda{
+    margin: auto;
+}
+
+#entre_contato {
+    height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+a#entre_contato {
+    height: 53px;
+}
+
+#section_2 {
+    margin-top:24px;
+    width: 100%;
+    margin: auto;
+}
+
+
+ul #area {
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+#section_2 input {
+    width: 90%;
+    
+}
+
+#section_2 input {
+    width: 100%;
+   
+}
+
+#section_2 p {
+    margin-top: 0px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+ 
+#area li input {  
+        width: 100%;
+}
+
+#section_2 ul a{
+    width: 100%;
+    font-size: 15px;
+
+
+}
+#section_2 ul {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#enviar {
+    text-align: center;
+    margin: auto;
+    margin-top:31px;
+}
+
+#sala_de_imprensa img {
+    display: flex;
+    margin-top: -11px;
+    margin-left: 3px;
+    display: flex;
+}
+
+#sala_de_imprensa a {
+    font-size: 25px;
+    width: 100%;
+    margin-top: -14px;
+}
+
+}
+/*MOBILE */
+@media only screen and (max-width: 500px) {
+    main {
+        width: 100%;
+  
+    } 
+    
+    #sala_de_imprensa button {
+        margin-left: 0%;
+        font-size: 15px;
+        margin-top: 7px;
+    }
+
+    #section_1{
+        width: 90%;
+        height: auto;
+        margin-top: 150px;
+    }
+
+
+    #telefones {
+        margin-top: 65px;
+
+        
+    }
+
+    #telefones p {
+        margin-top: 54px;
+        margin-left: 12px;
+    }
+
+    article{
+        margin-top: 20px;
+        height: 820px;
+    }
+
+    #telefones img {
+
+        margin-left:8px;
+    }
+
+    #contato_imprensa{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 50px;
+       
+        -webkit-text-stroke: 1px #000;
+
+        }
+    
+    article{
+           width:100%;           
+       }
+    
+       #sala_de_imprensa{
+        width: 90%;
+        height:45%;
+        border-bottom: 1px solid #000;
+        
+        border-right:none;
+        margin-left: 5%;
+   }
+   #telefones {
+    width: 90%;
+    height:55%;
+    
+    
+    margin-left: 5%;
+
+}
+
+#borda {
+    margin: auto;
+}
+
+#section_2 {
+    font-family: 'Lato';
+    text-align: center;
+    margin-top: 101px;
+    display: flex;
+    flex-direction:column;
+}
+
+#section_2 a {
+    width: 100%;
+    text-align: center;
+    margin: 20px auto;
+}
+
+#contato {
+    font-size: 35px;
+    padding: 0 0%;
+    margin: auto;
+}
+
+#entre_contato {
+    height: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+}
+
+a#entre_contato {
+    height: 53px;
+}
+
+#section_2 {
+    margin-top:24px;
+    width: 100%;
+    margin: auto;
+}
+
+
+ul #area {
+    width: 100%;
+    display: flex;
+    margin: 0;
+}
+#section_2 input {
+    width: 90%;
+    
+}
+
+#section_2 input {
+    width: 100%;
+   
+}
+
+#section_2 p {
+    margin-top: 1px;
+    font-size: 20px;
+    width: 100%;
+    text-align: center;
+}
+ 
+#area li input {  
+        width: 100%;
+}
+
+#section_2 ul a{
+    width: 100%;
+    font-size: 15px;
+
+
+}
+#section_2 ul {
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+#enviar {
+    text-align: center;
+    margin: auto;
+    margin-top:31px;
+}
+
+#sala_de_imprensa img {
+    display: flex;
+    margin-top: -11px;
+    margin-left: 3px;
+    display: flex;
+}
+
+#sala_de_imprensa a {
+    font-size: 25px;
+    width: 100%;
+    margin-top: -14px;
+}
+
+#telefones p span {
+    color: #000;  
+  }
+}
+
+@media only screen and (max-width: 427px) {
+
+#sala_de_imprensa img {
+    display: none;
+    width: 100%;
+}
+
+#sala_de_imprensa a {
+
+    width: 100%
+   
+}
+
+
+}
+@media only screen and (max-width: 340px) {
+    #sala_de_imprensa a {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:768px){
+    .hamburger {
+        display: block;
+        padding:  0 1%;
+    }    
+    
+    .mobile{   
+        display: block;  
+        z-index: 99;
+    }
+
+    .desktop{display: none;}
+    
+    .navbar{
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+
+    .hamburger.active .bar:nth-child(2){
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1){
+        transform: translateY(10px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3){
+        transform: translateY(-10px) rotate(-45deg);
+    }
+
+    .nav-menu.active{right: 0;}
+
+    .nav-menu{
+        position: fixed;
+        right: -100%;
+        top: 100px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #fff;
+        width: 40%;
+        text-align: center;
+        transition: 0.3s;
+        list-style-type: none;
+    }
+    .nav-link{
+        font-size: 16px;
+        text-decoration: none;
+    }
+
+    .nav-link:hover{font-size: 24px;}
+    
+    .nav-item{
+        width: 100%;
+        margin: 5px 0;
+        padding: 10px 0;
+        border-bottom: #000 1px solid;    
+    }
+
+    .nav-branding {border: solid;}    
+   
+    .rodape{
+        position: absolute;
+        width: 100%;
+        display: block;
+        height: auto;
+    }
+    
+    .link-rodape{display: none;}   
+   
+    .icones-branco{
+        width: 100%;
+        height: auto;
+        float: none;
+        margin: auto;
+        margin-top: 50px;
+        padding: 0 5%;
+    }
+    
+    .icones-branco img{
+        float: left;
+        padding: 0 10px;
+        margin-top: 20px;
+    }
+    
+    .icones-branco p{
+        float: left;
+        padding: 0 5px;
+        font-size: 20px;
+        line-height: 70px;
+    }
+    
+    .contatos{
+        width: 100%;
+        float: none;
+        margin-top: 180px;
+        padding: 0 30px;
+    }
+
+    .palavras{
+        width: 100%;
+        margin-top: 20px;
+    }
+    
+    .contatos h1{
+        float: left;
+        padding: 0 3%;
+        margin: 0 auto;
+        margin-top: 20px;
+        font-size: 20px;
+        font-weight: 300;
+        color: white;
+        line-height: 60px;
+    }
+  
+    .contatos img{
+        float: none;
+        margin: 20px auto;
+        padding: 0 0%;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    @media screen and (max-width: 1180px){
+    
+        .hamburger {
+            display: block;
+            padding:  0 1%;
+        }    
+        
+        .mobile{   
+            display: block;  
+            z-index: 99;
+        }
+    
+        .desktop{display: none;}
+        
+        .navbar{
+            position: fixed;
+            width: 100%;
+            top: 0;
+        }
+    
+        .hamburger.active .bar:nth-child(2){opacity: 0;}
+    
+        .hamburger.active .bar:nth-child(1){transform: translateY(10px) rotate(45deg);}
+    
+        .hamburger.active .bar:nth-child(3){transform: translateY(-10px) rotate(-45deg);}
+    
+        .nav-menu.active{right: 0;}
+    
+        .nav-menu{
+            position: fixed;
+            right: -100%;
+            top: 100px;
+            gap: 0;
+            flex-direction: column;
+            background-color: #fff;
+            width: 40%;
+            text-align: center;
+            transition: 0.3s;
+            list-style-type: none;
+        }
+    
+        .nav-link{
+            font-weight: bold;    
+            font-size: 16px;
+            text-decoration: none;
+        }
+    
+        .nav-link:hover{font-size: 24px;}
+        
+        .nav-item{
+            width: 100%;
+            margin: 5px 0;
+            padding: 10px 0;
+            border-bottom: #000 1px solid;        
+        }
+    
+        .nav-branding{border: solid;}    
+
+        .rodape{
+            position: absolute;
+            width: 100%;
+            height: auto;
+        }
+        
+        .link-rodape{
+            display: none;
+        }   
+       
+        .icones-branco{
+            width: 100%;
+            float: none;
+            margin: auto;
+            margin-top: 50px;
+        }
+        
+        .icones-branco img{
+            float: left;
+            padding: 0 10px;
+            margin-top: 20px;
+        }
+        
+        .icones-branco p{
+            float: left;
+            padding: 0 5px;
+            font-size: 20px;
+            line-height: 70px;
+        }
+        
+        .contatos{
+            width: 100%;
+            float: none;
+            margin-top: 150px;
+            padding: 0 30px;
+        }
+    
+        .palavras{
+            padding-left: 10%;
+        }
+        
+        .contatos h1{
+            float: left;
+            padding: 0 2%;
+            margin: 0 auto;
+            margin-top: 20px;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 60px;
+        }
+    
+        .logo-branca{
+            width: 100%;
+        }
+        
+        .contatos img{
+            float: none;
+            margin: 20px auto;
+            padding: 0 0%;
+            clear: both;
+        }
+    }
+}
+
+@media screen and (max-width: 480px){    
+    .contatos h1{font-size: 17px;}
+}
